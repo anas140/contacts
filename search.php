@@ -9,6 +9,9 @@
 			if(isset($_REQUEST['MSG'])) {
 				echo "<script>alert('Registered Successfully');</script>";
 			}
+			if(isset($_REQUEST['ERR'])) {
+				echo "<script>alert('contats not avalabe try to research');</script>";
+			}
 		?>
 		<center>
 			<form method="POST" action="listcontacts.php">
